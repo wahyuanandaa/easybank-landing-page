@@ -72,7 +72,7 @@ Pengguna dapat:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/wahyuanandaa)
+- Frontend Mentor - [@wahyuanandaa](https://www.frontendmentor.io/profile/wahyuanandaa)
 
 ---
 
