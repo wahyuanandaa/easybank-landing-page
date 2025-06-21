@@ -30,8 +30,8 @@ Pengguna dapat:
 
 ### Links
 
-- Solution URL: [Tambahkan link repository GitHub Anda di sini]
-- Live Site URL: [Tambahkan link live site Anda di sini]
+- Solution URL: [Click Me...](https://github.com/wahyuanandaa/easybank-landing-page)
+- Live Site URL: [Click Me...](https://wahyuanandaa.github.io/easybank-landing-page/)
 
 ## Struktur Gambar
 
@@ -72,7 +72,7 @@ Pengguna dapat:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/wahyuanandaa)
 
 ---
 
