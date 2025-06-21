@@ -14,12 +14,20 @@ function Header() {
       <div className="flex flex--j-between flex--a-center flex--navtop">
         <img className={styles.logo} src={logo} alt="logo of the website" />
         <button
-          className={`${styles.hamburger}${menuOpen ? " active" : ""}`}
+          className={styles.hamburger}
+          style={{
+            background: `transparent url(${
+              menuOpen ? iconClose : iconHamburger
+            }) no-repeat center center`,
+            height: "1rem",
+            width: "2.25rem",
+            border: "none",
+            outline: "none",
+            cursor: "pointer"
+          }}
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle navigation"
-        >
-          <img src={menuOpen ? iconClose : iconHamburger} alt="menu icon" />
-        </button>
+        ></button>
       </div>
       <div className={`mobile-overlay${menuOpen ? " show-overlay" : ""}`}></div>
       <nav

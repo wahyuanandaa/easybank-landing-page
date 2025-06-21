@@ -13,16 +13,10 @@
 }
 
 .hamburger {
-  cursor: pointer;
-  background: transparent url("/images/icon-hamburger.svg") no-repeat center
-    center;
-  border: none;
+  /* background diatur via style inline React */
   display: none;
-  height: 1rem;
-  outline: none;
-  width: 2.25rem;
 }
 
 .hamburger.active {
-  background-image: url("/images/icon-close.svg");
+  background-image: url("assets/icon-close.svg");
 }
