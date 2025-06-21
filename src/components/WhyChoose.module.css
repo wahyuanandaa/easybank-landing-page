@@ -1,0 +1,12 @@
+.middle {
+  background-color: #f3f4f6;
+  gap: 78px 0;
+  height: 650px;
+}
+
+.featureCard {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+}

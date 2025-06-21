@@ -1,18 +1,10 @@
+import styles from "./Hero.module.css"
 import heroImg from "../assets/image-mockups.png"
-import bgIntroDesktop from "../assets/bg-intro-desktop.svg"
 
 function Hero() {
   return (
     <section
-      className="flex flex--a-center flex--j-start top"
-      style={{
-        background: `url(${bgIntroDesktop}) no-repeat 610px -261px`,
-        height: "656px",
-        position: "relative",
-        paddingLeft: "164px",
-        width: "100%",
-        overflow: "hidden"
-      }}
+      className={`flex flex--a-center flex--j-start top ${styles.heroBg}`}
     >
       <div className="flex flex--column flex--a-start flex--top-gap top-heading">
         <h1 className="head-1">Next generation digital banking</h1>
@@ -28,12 +20,7 @@ function Hero() {
       <img
         src={heroImg}
         alt="photo of 4 mobile phones"
-        className="hero"
-        style={{
-          position: "absolute",
-          right: "-133px",
-          top: "-118px"
-        }}
+        className={styles.hero}
       />
     </section>
   )

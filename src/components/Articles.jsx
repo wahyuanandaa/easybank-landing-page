@@ -1,3 +1,4 @@
+import styles from "./Articles.module.css"
 import imgCurrency from "../assets/image-currency.jpg"
 import imgRestaurant from "../assets/image-restaurant.jpg"
 import imgPlane from "../assets/image-plane.jpg"
@@ -5,14 +6,16 @@ import imgConfetti from "../assets/image-confetti.jpg"
 
 function Articles() {
   return (
-    <section className="flex flex--column flex--j-center pad-164 bottom">
+    <section
+      className={`flex flex--column flex--j-center pad-164 ${styles.bottom}`}
+    >
       <h2 className="head-2">Latest Articles</h2>
       <div className="flex flex--j-between flex--middle-gap">
-        <div className="flex flex--column flex--bottom-gap">
+        <div className={styles.articleCard}>
           <img
             src={imgCurrency}
             alt="picture of money"
-            className="bottom-image"
+            className={styles.bottomImage}
           />
           <div className="flex flex--column flex--j-center flex--article-gap">
             <div className="gb-text article-head">By Claire Robinson</div>
@@ -23,11 +26,11 @@ function Articles() {
             </p>
           </div>
         </div>
-        <div className="flex flex--column flex--bottom-gap">
+        <div className={styles.articleCard}>
           <img
             src={imgRestaurant}
             alt="picture of food"
-            className="bottom-image"
+            className={styles.bottomImage}
           />
           <div className="flex flex--column flex--j-center flex--article-gap">
             <div className="gb-text article-head">By Wilson Hutton</div>
@@ -40,8 +43,12 @@ function Articles() {
             </p>
           </div>
         </div>
-        <div className="flex flex--column flex--bottom-gap">
-          <img src={imgPlane} alt="picture of plane" className="bottom-image" />
+        <div className={styles.articleCard}>
+          <img
+            src={imgPlane}
+            alt="picture of plane"
+            className={styles.bottomImage}
+          />
           <div className="flex flex--column flex--j-center flex--article-gap">
             <div className="gb-text article-head">By Wilson Hutton</div>
             <p className="head-4">Take your Easybank card wherever you go</p>
@@ -51,11 +58,11 @@ function Articles() {
             </p>
           </div>
         </div>
-        <div className="flex flex--column flex--bottom-gap">
+        <div className={styles.articleCard}>
           <img
             src={imgConfetti}
             alt="picture of confetti"
-            className="bottom-image"
+            className={styles.bottomImage}
           />
           <div className="flex flex--column flex--j-center flex--article-gap">
             <div className="gb-text article-head">By Claire Robinson</div>

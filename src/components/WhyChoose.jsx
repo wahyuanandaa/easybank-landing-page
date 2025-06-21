@@ -1,3 +1,4 @@
+import styles from "./WhyChoose.module.css"
 import iconOnline from "../assets/icon-online.svg"
 import iconBudgeting from "../assets/icon-budgeting.svg"
 import iconOnboarding from "../assets/icon-onboarding.svg"
@@ -5,7 +6,9 @@ import iconApi from "../assets/icon-api.svg"
 
 function WhyChoose() {
   return (
-    <section className="flex flex--column flex--j-center pad-164 middle">
+    <section
+      className={`flex flex--column flex--j-center pad-164 ${styles.middle}`}
+    >
       <div className="flex flex--column flex--top-gap">
         <h2 className="head-2">Why choose Easybank?</h2>
         <p className="gb-text">
@@ -15,7 +18,7 @@ function WhyChoose() {
         </p>
       </div>
       <div className="flex flex--j-between flex--middle-gap">
-        <div className="flex flex--column flex--top-gap flex--a-start">
+        <div className={styles.featureCard}>
           <img src={iconOnline} alt="vector icon of online banking" />
           <p className="head-3">Online Booking</p>
           <p className="gb-text body-text">
@@ -23,7 +26,7 @@ function WhyChoose() {
             your finances wherever you are in the world.
           </p>
         </div>
-        <div className="flex flex--column flex--top-gap flex--a-start">
+        <div className={styles.featureCard}>
           <img src={iconBudgeting} alt="vector icon of online budgeting" />
           <p className="head-3">Simple Budgeting</p>
           <p className="gb-text body-text">
@@ -31,7 +34,7 @@ function WhyChoose() {
             when you're close to hitting your limits.
           </p>
         </div>
-        <div className="flex flex--column flex--top-gap flex--a-start">
+        <div className={styles.featureCard}>
           <img src={iconOnboarding} alt="vector icon of online onboarding" />
           <p className="head-3">Fast Onboarding</p>
           <p className="gb-text body-text">
@@ -39,7 +42,7 @@ function WhyChoose() {
             taking control of your finances right away.
           </p>
         </div>
-        <div className="flex flex--column flex--top-gap flex--a-start">
+        <div className={styles.featureCard}>
           <img src={iconApi} alt="vector icon of online api" />
           <p className="head-3">Open API</p>
           <p className="gb-text body-text">

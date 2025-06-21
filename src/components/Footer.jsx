@@ -1,3 +1,4 @@
+import styles from "./Footer.module.css"
 import logo from "../assets/logo.svg"
 import iconFacebook from "../assets/icon-facebook.svg"
 import iconYoutube from "../assets/icon-youtube.svg"
@@ -7,15 +8,32 @@ import iconInstagram from "../assets/icon-instagram.svg"
 
 function Footer() {
   return (
-    <footer className="flex flex--footer-gap">
+    <footer className={`flex flex--footer-gap ${styles.footer}`}>
       <div className="flex flex--column flex--j-between footer-top">
-        <img id="footer-logo" src={logo} alt="Easybank logo" />
+        <img
+          id="footer-logo"
+          className={styles.footerLogo}
+          src={logo}
+          alt="Easybank logo"
+        />
         <div className="flex flex--gap-icons">
-          <img className="footer-icons" src={iconFacebook} alt="Facebook" />
-          <img className="footer-icons" src={iconYoutube} alt="YouTube" />
-          <img className="footer-icons" src={iconTwitter} alt="Twitter" />
-          <img className="footer-icons" src={iconPinterest} alt="Pinterest" />
-          <img className="footer-icons" src={iconInstagram} alt="Instagram" />
+          <img
+            className={styles.footerIcons}
+            src={iconFacebook}
+            alt="Facebook"
+          />
+          <img className={styles.footerIcons} src={iconYoutube} alt="YouTube" />
+          <img className={styles.footerIcons} src={iconTwitter} alt="Twitter" />
+          <img
+            className={styles.footerIcons}
+            src={iconPinterest}
+            alt="Pinterest"
+          />
+          <img
+            className={styles.footerIcons}
+            src={iconInstagram}
+            alt="Instagram"
+          />
         </div>
       </div>
       <div className="flex flex--column flex--j-between footer-mid">

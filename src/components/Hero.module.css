@@ -1,0 +1,14 @@
+.heroBg {
+  background: url(/images/bg-intro-desktop.svg) no-repeat 610px -261px;
+  height: 656px;
+  position: relative;
+  padding-left: 164px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero {
+  position: absolute;
+  right: -133px;
+  top: -118px;
+}

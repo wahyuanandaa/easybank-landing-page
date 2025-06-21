@@ -30,14 +30,21 @@ Pengguna dapat:
 
 ### Links
 
-- Solution URL: [GitHub]()
-- Live Site URL: [Live Site]()
+- Solution URL: [Tambahkan link repository GitHub Anda di sini]
+- Live Site URL: [Tambahkan link live site Anda di sini]
+
+## Struktur Gambar
+
+- Semua gambar yang diimport di React (`<img src={...}>`) berada di `src/assets`.
+- Semua gambar yang diakses dari CSS/background berada di `public/images`.
+- Gambar yang dipakai di kedua tempat (misal: icon hamburger) harus ada di kedua folder.
 
 ## My process
 
 ### Built with
 
 - React + Vite
+- CSS Module per komponen (`.module.css` di folder `src/components`)
 - Semantic HTML5 markup
 - CSS custom properties (dari template asli)
 - Flexbox
@@ -47,13 +54,13 @@ Pengguna dapat:
 ### What I learned
 
 - Cara mengkonversi project HTML/CSS/JS statis menjadi project React modular
-- Cara mengelola aset gambar dan SVG di React
-- Cara mengimpor style global dari template lama ke React
+- Cara mengelola aset gambar dan SVG di React dan public
+- Cara mengimpor style global dan modular (CSS Module) di React
 - Cara menjaga struktur dan style tetap identik dengan desain asli
 
 ### Continued development
 
-- Refactor style menjadi CSS Modules atau Styled Components untuk skalabilitas
+- Refactor utility class global ke CSS Module jika ingin isolasi penuh
 - Menambah animasi interaktif pada menu mobile
 - Menambah test unit untuk komponen utama
 

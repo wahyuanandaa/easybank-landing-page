@@ -1,3 +1,4 @@
+import styles from "./Header.module.css"
 import { useState } from "react"
 import logo from "../assets/logo.svg"
 import iconHamburger from "../assets/icon-hamburger.svg"
@@ -7,11 +8,13 @@ function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <header className="flex flex--a-center flex--j-between header pad-164">
+    <header
+      className={`flex flex--a-center flex--j-between pad-164 ${styles.header}`}
+    >
       <div className="flex flex--j-between flex--a-center flex--navtop">
-        <img className="logo" src={logo} alt="logo of the website" />
+        <img className={styles.logo} src={logo} alt="logo of the website" />
         <button
-          className={`hamburger${menuOpen ? " active" : ""}`}
+          className={`${styles.hamburger}${menuOpen ? " active" : ""}`}
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle navigation"
         >

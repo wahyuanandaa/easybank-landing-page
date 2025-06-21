@@ -1,0 +1,18 @@
+.footer {
+  background-color: #2d314d;
+  height: 190px;
+  padding: 46px 164px;
+}
+
+.footerLogo {
+  cursor: pointer;
+}
+
+.footerIcons {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.footerIcons:hover {
+  transform: translateY(-4px);
+}
