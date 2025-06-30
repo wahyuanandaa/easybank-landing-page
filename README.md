@@ -35,8 +35,8 @@ Pengguna dapat:
 
 ### Link
 
-- Solution URL: [Repo ini](https://github.com/username/easybank-landing-page)
-- Live Site URL: [Demo di Netlify/Vercel/atau lokal](http://localhost:5500/) _(atau link deploy kamu)_
+- Solution URL: [GitHub Repo](https://github.com/wahyuanandaa/easybank-landing-page/)
+- Live Site URL: [GitHub Pages](https://wahyuanandaa.github.io/easybank-landing-page/)
 
 ## Proses Saya
 
@@ -94,8 +94,7 @@ const scrollToTop = new IntersectionObserver((entries) => {
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@wahyuanandaa](https://www.frontendmentor.io/profile/wahyuanandaa)
 
 ## Acknowledgments
 
